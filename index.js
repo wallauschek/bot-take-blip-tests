@@ -97,7 +97,7 @@ client
 
                     client.sendMessage(msg);
                     message.content = "";
-                    // sleep(2);
+                    sleep(2);
                   });
                 } else if (message.content == 2) {
                   client.addMessageReceiver(true, function (message) {
@@ -109,7 +109,7 @@ client
                       to: message.from,
                     };
                     client.sendMessage(msg);
-                    // sleep(2);
+                    sleep(2);
                   });
                 } else if (message.content == 3) {
                   client.addMessageReceiver(true, function (message) {
@@ -121,7 +121,7 @@ client
                       to: message.from,
                     };
                     client.sendMessage(msg);
-                    // sleep(2);
+                    sleep(2);
                   });
                 } else if (message.content == 4) {
                   client.addMessageReceiver(true, function (message) {
@@ -133,7 +133,7 @@ client
                       to: message.from,
                     };
                     client.sendMessage(msg);
-                    // sleep(2);
+                    sleep(2);
                   });
                 } else if (message.content == 5) {
                   client.addMessageReceiver(true, function (message) {
@@ -145,7 +145,7 @@ client
                       to: message.from,
                     };
                     client.sendMessage(msg);
-                    // sleep(2);
+                    sleep(2);
                   });
                 } else if (message.content == 6) {
                   return true;
@@ -162,7 +162,7 @@ client
                   to: message.from,
                 };
                 client.sendMessage(msg);
-                // sleep(2);
+                sleep(2);
               }
             );
           }
